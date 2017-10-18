@@ -14,7 +14,7 @@
     <script>
     $(document).ready(function(){
         $("button").click(function(){
-            $.ajax({url: "http://api.pse.tools/api/stock/v2/APX", success: function(result){
+            $.ajax({url: "//api.pse.tools/api/stock/v2/APX", success: function(result){
                 // $("#div1").html(result);
                  var targetPrice = document.getElementById('targetPrice').value;
                 var sharesNumber = document.getElementById('sharesNumber').value;
